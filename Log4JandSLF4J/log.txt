@@ -1,0 +1,10 @@
+Log4j Setup is ready
+getTotalMethod  Start
+java.lang.ArithmeticException: / by zero
+Log4j Setup is ready
+getTotalMethod  Start
+java.lang.ArithmeticException: / by zero
+Log4j Setup is ready
+getTotalMethod  Start
+java.lang.ArithmeticException: / by zero
+2021-09-02 09:45:592021-09-02 09:45:592021-09-02 09:45:59
