@@ -16,7 +16,7 @@ public class OptionalAPITest {
 		System.out.println(op2);	
 		//equals(Optional op) Compares current Optional value with another optional value , returns true is same otherwise returns false 
 		System.out.println(op2.equals(op1));	
-		//filter(Predicate p); If a value is present, and the value matches the given predicate,returns an Optional describing the value, otherwise returns anempty Optional.
+		//filter(Predicate p); If a value is present, and the value matches the given predicate,returns an Optional describing the value, otherwise returns an empty Optional.
 		System.out.println(op2.filter(data->data.equals("Pavan1")));
 		//get() return optional describile value if present , otherwise throws exception
 		System.out.println(op2.get());	
@@ -36,7 +36,7 @@ public class OptionalAPITest {
 		// orElse(T other) Returns the value if present, otherwise returns other.
 		Optional<String> op5=Optional.ofNullable("Pavan");
 		System.out.println(op5.orElse("Pavan J"));
-		//isEmpty() return true id optional describing value is empty else return false
+		//isEmpty() return true if optional describing value is empty else return false
 		Optional<String> op6=Optional.empty();
 		System.out.println(op6.isEmpty());
 		System.out.println(op5.isEmpty());
